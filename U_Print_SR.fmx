@@ -1,0 +1,1080 @@
+object Print_SR: TPrint_SR
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'Form1'
+  ClientHeight = 700
+  ClientWidth = 830
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Rectangle8: TRectangle
+    Align = Client
+    Fill.Color = claSlategray
+    Opacity = 0.500000000000000000
+    Size.Width = 830.000000000000000000
+    Size.Height = 643.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+  end
+  object Rectangle7: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Opacity = 0.500000000000000000
+    Size.Width = 830.000000000000000000
+    Size.Height = 643.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Visible = False
+  end
+  object PrintDialog: TPrintDialog
+    Left = 448
+    Top = 16
+  end
+  object ScrollBox: TScrollBox
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 810.000000000000000000
+    Size.Height = 623.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ShowSizeGrip = True
+    Viewport.Width = 794.000000000000000000
+    Viewport.Height = 623.000000000000000000
+    object Rectangle1: TRectangle
+      Fill.Color = claWhite
+      Size.Width = 794.000000000000000000
+      Size.Height = 1124.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+      object Rectangle6: TRectangle
+        Fill.Kind = None
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 785.000000000000000000
+        Size.Height = 1117.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 2.000000000000000000
+        Stroke.Join = Round
+      end
+      object Text9: TText
+        Position.X = 122.000000000000000000
+        Position.Y = 1064.000000000000000000
+        Size.Width = 551.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Stretch = True
+        Text = #1603#1579#1610#1585' '#1605#1606' '#1575#1604#1571#1605#1585#1575#1590' '#1575#1604#1605#1593#1583#1610#1577' '#1578#1606#1578#1602#1604' '#1605#1606' '#1588#1582#1589' '#1604#1571#1582#1585' '#1593#1606' '#1591#1585#1610#1602' '#1575#1604#1571#1610#1583#1610' '#1575#1604#1602#1584#1585#1577' '
+      end
+      object Text5: TText
+        Position.X = 122.000000000000000000
+        Position.Y = 1088.000000000000000000
+        Size.Width = 551.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Stretch = True
+        Text = 'Beaucoup de maladies se transmettent par les mains sales'
+      end
+      object Layout1: TLayout
+        Position.X = 16.000000000000000000
+        Position.Y = 328.000000000000000000
+        Size.Width = 761.000000000000000000
+        Size.Height = 737.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 9
+        object Rectangle3: TRectangle
+          Position.X = 44.000000000000000000
+          Position.Y = 296.000000000000000000
+          Size.Width = 657.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Text11: TText
+            Position.X = 184.000000000000000000
+            Size.Width = 289.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            Text = 'La S'#233'rologie Bact'#233'rienne'
+            TextSettings.Trimming = Word
+          end
+        end
+        object Rectangle4: TRectangle
+          Position.X = 52.000000000000000000
+          Position.Y = 616.000000000000000000
+          Size.Width = 657.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Text12: TText
+            Position.X = 184.000000000000000000
+            Size.Width = 289.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            Text = 'La S'#233'rologie Parasitologie'
+            TextSettings.Trimming = Word
+          end
+        end
+        object Text17: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 56.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La s'#233'rologie de l'#39'h'#233'patite A'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text18: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La s'#233'rologie de l'#39'h'#233'patite B'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text19: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 176.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La s'#233'rologie de l'#39'h'#233'patite C'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text20: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 240.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La s'#233'rologie du VIH/SIDA'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text21: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 672.000000000000000000
+          Size.Width = 249.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La s'#233'rologie de la toxoplasmose '
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+          object Text22: TText
+            Position.Y = 32.000000000000000000
+            Size.Width = 65.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            Text = 'Anti-IgM'
+            TextSettings.Trimming = Word
+          end
+        end
+        object Text23: TText
+          Position.X = 200.000000000000000000
+          Position.Y = 704.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text24: TText
+          Position.X = 40.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-VHA'
+          TextSettings.Trimming = Word
+        end
+        object Text26: TText
+          Position.X = 312.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'de type'
+          TextSettings.Trimming = Word
+        end
+        object Text28: TText
+          Position.X = 376.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'IgM'
+          TextSettings.Trimming = Word
+        end
+        object Text29: TText
+          Position.X = 160.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text33: TText
+          Position.X = 40.000000000000000000
+          Position.Y = 148.000000000000000000
+          Size.Width = 69.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-VHB'
+          TextSettings.Trimming = Word
+        end
+        object Text34: TText
+          Position.X = 164.000000000000000000
+          Position.Y = 148.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text36: TText
+          Position.X = 308.000000000000000000
+          Position.Y = 148.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-HBs'
+          TextSettings.Trimming = Word
+        end
+        object Text37: TText
+          Position.X = 36.000000000000000000
+          Position.Y = 212.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-VHC'
+          TextSettings.Trimming = Word
+        end
+        object Text38: TText
+          Position.X = 164.000000000000000000
+          Position.Y = 212.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text39: TText
+          Position.X = 436.000000000000000000
+          Position.Y = 148.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text27: TText
+          Position.X = 600.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'IgG'
+          TextSettings.Trimming = Word
+        end
+        object Text31: TText
+          Position.X = 712.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text32: TText
+          Position.X = 528.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 57.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'de type'
+          TextSettings.Trimming = Word
+        end
+        object Text30: TText
+          Position.X = 432.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text35: TText
+          Position.X = 36.000000000000000000
+          Position.Y = 268.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-VIH'
+          TextSettings.Trimming = Word
+        end
+        object Text40: TText
+          Position.X = 164.000000000000000000
+          Position.Y = 268.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text41: TText
+          Position.X = 8.000000000000000000
+          Position.Y = 352.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La s'#233'rologie de la rub'#233'ole'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text49: TText
+          Position.X = 8.000000000000000000
+          Position.Y = 428.000000000000000000
+          Size.Width = 233.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Salmonelloses (Fi'#232'vre typhoide)'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text50: TText
+          Position.X = 8.000000000000000000
+          Position.Y = 488.000000000000000000
+          Size.Width = 217.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'La mononul'#233'ose infectieuse'
+          TextSettings.Font.StyleExt = {04070000000200000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text51: TText
+          Position.X = 32.000000000000000000
+          Position.Y = 392.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anticorps de type IgM'
+          TextSettings.Trimming = Word
+        end
+        object Text52: TText
+          Position.X = 192.000000000000000000
+          Position.Y = 392.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text53: TText
+          Position.X = 440.000000000000000000
+          Position.Y = 392.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text54: TText
+          Position.X = 280.000000000000000000
+          Position.Y = 392.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anticorps de type IgG'
+          TextSettings.Trimming = Word
+        end
+        object Text55: TText
+          Position.X = 712.000000000000000000
+          Position.Y = 392.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text56: TText
+          Position.X = 536.000000000000000000
+          Position.Y = 392.000000000000000000
+          Size.Width = 153.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anticorps de type IgA'
+          TextSettings.Trimming = Word
+        end
+        object Text57: TText
+          Position.X = 34.000000000000000000
+          Position.Y = 460.000000000000000000
+          Size.Width = 53.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-O'
+          TextSettings.Trimming = Word
+        end
+        object Text58: TText
+          Position.X = 190.000000000000000000
+          Position.Y = 460.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text59: TText
+          Position.X = 438.000000000000000000
+          Position.Y = 460.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text60: TText
+          Position.X = 282.000000000000000000
+          Position.Y = 460.000000000000000000
+          Size.Width = 53.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-H'
+          TextSettings.Trimming = Word
+        end
+        object Text61: TText
+          Position.X = 34.000000000000000000
+          Position.Y = 524.000000000000000000
+          Size.Width = 87.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-EBNA'
+          TextSettings.Trimming = Word
+        end
+        object Text62: TText
+          Position.X = 190.000000000000000000
+          Position.Y = 524.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text63: TText
+          Position.X = 34.000000000000000000
+          Position.Y = 572.000000000000000000
+          Size.Width = 79.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-VCA'
+          TextSettings.Trimming = Word
+        end
+        object Text64: TText
+          Position.X = 190.000000000000000000
+          Position.Y = 572.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text65: TText
+          Position.X = 282.000000000000000000
+          Position.Y = 572.000000000000000000
+          Size.Width = 63.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'AntiEBV'
+          TextSettings.Trimming = Word
+        end
+        object Text66: TText
+          Position.X = 438.000000000000000000
+          Position.Y = 572.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Text67: TText
+          Position.X = 282.000000000000000000
+          Position.Y = 524.000000000000000000
+          Size.Width = 55.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Anti-EA'
+          TextSettings.Trimming = Word
+        end
+        object Text68: TText
+          Position.X = 438.000000000000000000
+          Position.Y = 524.000000000000000000
+          Size.Width = 49.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.Trimming = Word
+        end
+        object Rectangle2: TRectangle
+          Position.X = 52.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 657.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object Text10: TText
+            Position.X = 232.000000000000000000
+            Size.Width = 193.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            Text = 'La S'#233'rologie Viral'
+            TextSettings.Trimming = Word
+          end
+        end
+      end
+      object Text25: TText
+        Position.X = 1141.000000000000000000
+        Position.Y = 280.000000000000000000
+        Size.Width = 100.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stretch = True
+        Text = 'Analyses'
+        TextSettings.Trimming = Word
+      end
+      object Line9: TLine
+        LineType = Bottom
+        Position.X = 68.000000000000000000
+        Position.Y = 1056.000000000000000000
+        Size.Width = 657.000000000000000000
+        Size.Height = 10.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 2.000000000000000000
+      end
+      object Layout_Header: TLayout
+        Size.Width = 793.000000000000000000
+        Size.Height = 329.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 11
+        object Rectangle5: TRectangle
+          Fill.Color = xFFE7F1F7
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 777.000000000000000000
+          Size.Height = 237.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Text4: TText
+          Position.X = 120.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object Text: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 120.000000000000000000
+          Size.Width = 98.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'T'#233'lephone: '
+          TextSettings.Trimming = Word
+        end
+        object Text1: TText
+          Position.X = 74.000000000000000000
+          Position.Y = 24.000000000000000000
+          Size.Width = 511.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Trimming = Word
+        end
+        object Text2: TText
+          Position.X = 264.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Trimming = Word
+        end
+        object Text7: TText
+          Position.X = 656.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 113.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object Text6: TText
+          Position.X = 624.000000000000000000
+          Position.Y = 96.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Le : '
+          TextSettings.Font.Size = 15.000000000000000000
+        end
+        object Text8: TText
+          Position.X = 235.000000000000000000
+          Position.Y = 236.000000000000000000
+          Size.Width = 323.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Analyse de S'#233'rologie'
+          TextSettings.Trimming = Word
+        end
+        object Text15: TText
+          Position.X = 704.000000000000000000
+          Position.Y = 304.000000000000000000
+          Size.Width = 80.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Trimming = Word
+        end
+        object Text16: TText
+          Position.X = 640.000000000000000000
+          Position.Y = 304.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Code : '
+          TextSettings.Trimming = Word
+        end
+        object Text14: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Patient : '
+          TextSettings.Trimming = Word
+        end
+        object Text13: TText
+          Position.X = 104.000000000000000000
+          Position.Y = 315.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Trimming = Word
+        end
+        object Text3: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 184.000000000000000000
+          Size.Width = 65.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'Email : '
+          TextSettings.Trimming = Word
+          object Text44: TText
+            Position.Y = -32.000000000000000000
+            Size.Width = 89.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            Text = 'Adresse : '
+            TextSettings.Trimming = Word
+            object Text45: TText
+              Position.X = 88.000000000000000000
+              Size.Width = 145.000000000000000000
+              Size.Height = 25.000000000000000000
+              Size.PlatformDefault = False
+              Stretch = True
+              TextSettings.Trimming = Word
+            end
+          end
+          object Text46: TText
+            Position.X = 64.000000000000000000
+            Size.Width = 201.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            TextSettings.Trimming = Word
+          end
+        end
+        object Text47: TText
+          Position.X = 24.000000000000000000
+          Position.Y = 216.000000000000000000
+          Size.Width = 89.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'SiteWeb : '
+          TextSettings.Trimming = Word
+        end
+        object Text48: TText
+          Position.X = 112.000000000000000000
+          Position.Y = 216.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          TextSettings.Trimming = Word
+        end
+        object Text42: TText
+          Position.X = 16.000000000000000000
+          Position.Y = 288.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stretch = True
+          Text = 'D'#233'livr'#233'e Par : '
+          TextSettings.Trimming = Word
+          object Text43: TText
+            Position.X = 120.000000000000000000
+            Size.Width = 121.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            Stretch = True
+            TextSettings.Trimming = Word
+          end
+        end
+        object Image1: TImage
+          MultiResBitmap.Height = 200
+          MultiResBitmap.Width = 138
+          MultiResBitmap = <
+            item
+              Width = 138
+              Height = 200
+              PNG = {
+                89504E470D0A1A0A0000000D494844520000008A000000C80806000000371779
+                03000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                1C5E49444154785EED9D077C1CE59DF7BF3BDBB52BAD7AB1555C24B9E3DE6D6C
+                030683C104FC1A48EE522E798F709F8410EE12624A909D8081804348DEF02624
+                1CB970F4965C123A7614B0B18D7BC7B22C59B264595DDADEEF99F5D26DB06CED
+                4A233DDFCF67BC9A6766FDD999F9CDBF3C158944229148241289442291482412
+                894422914824128944229148241289442291482412896480A38B7F0E62AE3742
+                81193B164C560BED4133368AB05A4662A2149BA91893A110855C82C14CA2060B
+                918811B7C780C922BEEB8D8A4F3F217D187D2880D9E444A7B4108C34E00ED6E3
+                0FD510881E167FD7A0D77792AA04688978C5F7FCB04A6CBA68FC87F46B06A150
+                1E3243F7106CCA30C2BA426CFA210C4B1F4161EA38ECD6720CFE0CD22D214AF2
+                A264A49A28B4EA7158C021BE962636B3416C7AD02B60129F51F19C7D210889CF
+                80F8F404A1C3075D626BEA88D2E50F50D516A555084BA7F8F10A0135B9F750D3
+                799063CE7A21C41378FC3504C347617567FC47F63B0689502A2CE89985D53C9F
+                70B89C894372993DB49CD2F4021C697A4AAC906337906D438844882001B745B5
+                1BAA88DA3D70B4354247344C47AB9E3A5F273B9BAB79A7AE0E4FE88438EB5D9C
+                BE7F88CF63423811F5ABFD81012C940A93F8670E69966FE2F12DE4823285FF33
+                328779C5465186B016BA0F2D435FA18A271086CEEE285E618D6ADBA3BC5AE7E6
+                D9FDDDC2121DA5DBF738A1C88B4230CD27BFD0770C20A13CABC7B62F8B887118
+                9929579065FA1A658E3CAE1B6D64E92405AB70195A21240CC92E615CFE7B9B8F
+                B71BFDB802EB69F43C2A44BD87CEA656582BCC524C6649630008A54284A1A689
+                C23ACC646AEE258CC99DC3B80C134BC69844EC21AE50E397E80CC0E6AA307FAF
+                8D50ED3FC696637FA2D9B981081BF1DC713C7E56C2D1F05D14AEC56ABA0CA36E
+                3997954FE192D27226A7E9282BD493229291814644189046276C690EB1A3BE8D
+                3FEEDA2502E6CD62FB83704D47E267250C0D0A45B8180E5E419AFE275C585AC8
+                0FA6399854A46011AE4519409EF474A80E2728E29A96AE284FED09F1AB1D4DB4
+                789EC61B5893C8AC492B7756FCCEBBB3495766909FB69219F993F9FE1C1B93F3
+                E38707316D5E786C738017AA7CD475FF5CB8AAA770DA44AA7D933F7E46AFA001
+                A1ACCCC2967A29233296B1A4F43296155B9855A6C7D087D94A7FE4841B9EDF16
+                605D53351BEB9E16027A89E09D7BE247CF997E2C94A80ECB9A79A41ABFC3BF4C
+                5ECCD5250EC695E8B1AB59AFE494A871CCC1E3512A6B833CB2632747BAFE46B7
+                F3D7706F5BFC8CB3A69F0AA522059B692DA3B3FF990716A630AF549116A407A8
+                B5C57E11C7DCF37A90B5BB7610516EC2BB72B37AE4E4093DA77F0925B3228DA0
+                710123B3EEE1CAF1A5FC70A619DB00CC6092856A61361E0AF3C0363F1B1B7E41
+                20FC285D2345FC728D5051CF1019447FE12763C873DCC18AF13FE407D387F3F5
+                4986585B8AE4EC51EB908AB3152E2E356289CEC21B99CBF1236E42D36A858202
+                F1B3CE887EF024AE3792BAFC9FC834AFE1AE4B2EE76BA353195FA8D34298AD19
+                ACC22ACF11F15DB9A380A86136F5DE52DC1756C29B679C19F5F1E3A8B08B8B58
+                CDC261FF97E7AE49936E2609A8EEE877DB43DCF45A377EEF0570D7AEF891CFA5
+                8F2C4A8582FDE23114A7FF9C1B677C83FB165B634DF892C4A3BAA36943142E19
+                69E560C7A504E6FB315E5085EFF3AD4B1F08A5C222329A154CCA5BCBCDF31770
+                FD64834C79FB80A1A93023C74154994355473E5D33DF834A77FCE86748B2EB11
+                2231196FE0BA71B770E3E43CA6162B9A6FB44B146A6728B5035487F7E4A7DA1D
+                C1F9B1975EED1EA1B669A9D5061916C8491159A3D88C3DAC46686C8FF2CCDE10
+                B7BFBD8150E4BB04EFDC173FF20992F8942A84E530DFCA65637ECCC39718C9B2
+                C6CB07216A3D47586C6ABCA00A60477D94AD1D11F61DF7B0F7849FC3AD06BA43
+                0A669D0B93AE0DC5D84C38E2125FEC16DF0BA226B7669D9928A9E8F556C2E11C
+                F1FFE4E20B3A48B50429CF0E3125D34A79B185490E45BC90BA0FDBC2D44E59A7
+                7A39DFA983154FEDC515BE01D7ED1B4589F8711F911CA158EE2DC6A1DCCEB513
+                BECEAA85E6D81B30985085D12DACC191E608C723116A3B421C6A39C1C6A3F5EC
+                69716288B6A228078438C4DB1C3E26BE21B6716D3DAFEF10B11FA62CA1BE22B1
+                334CC47DA384A8CA458091C7A8EC54E61617322E2F8F21E9460A84491A96A3C4
+                BA78AA025265517930C2AA8D7BD9DDB25258B2D73EDEC32EF14249FDC928B21D
+                ABB979D632FE758A35A6ECC1822A8EB7ABA3BCD71EA0B9CBC991F6F7D8DAB403
+                7FB04E3C9823B8234720D4201E88F02D89A442F8248688D8B0443CF15261D94B
+                382F6F2285E9D328B7A73323D7C0F45225E6CADE3B1C66F5E65ADEAEBB0F57E0
+                31F1DB840F4CB4506CBFC8239F47F9F1C2455C373E25D6F570A0A3BE9955C218
+                FCD72E3F9547C378836F71B4EB59BCBE3D44C32D78BB3BE0411178F4256B85DF
+                F7A693A2CFC5AA9F4051DAB5980C8B999D1BE5FA5916A2C1082B2B4F5059FB80
+                888B7EA98A257142713C988E23F23AB7CC98C8BFCD350DE8BE226ABCA1769CDE
+                F07E849F6D6FE3DDBA13E894FF8FD7F838FCC8193FAB9F73B31573D6D7317003
+                B3870EE5CBD3327862473BEF35DC82D3F7DF89797A696B4A451CF2303F98B280
+                EF2C302533644E2A7E61950FD687597FCCCF5F6B0EB0AD713B9DBE27C511110C
+                AEEE511579FFE14633FACCD92228FE8AC8A826E10DE58A40FA47BDFF081DF78C
+                20C77E2F3F9A7739DF9C681D9096445866B60A5FFEA4702DBBEAD7B1F5F89F51
+                F41B70D71C84478469190888C0D8661D83DFBF400826BD979FE2FD3686EA1FE2
+                F699D7F1AD99B601D9A8D7E28155AFFB58DFB08366CF7D78DD9BF1EC6F81E77A
+                DC22AB0DD4AEA7477B334DAD3091BA466437AFFA443E1F1529E1C0D92291282D
+                EE280F6DF2907A4F1DF635379C1C713878E8258B22022153C6F55C37E1673CB4
+                C4141B6D3750708950635D4D80FFDC798475479E1759C0AF44FCD1E703B2924D
+                2F0865859E94C95FE1AA316BF9C5C53964AB29FB00404D7337D544786C6F8837
+                8E3C4AABFB095C4D5BE15767DC342FF93829774D61D11F76B35344FFA732DB5A
+                DC8222DFFDDDEE10937E5B2DDCE9E5705F6AFC6A2567C7BD0ECA1EFA334F1D08
+                1239C50DD7DAA65E437D6B847F7FCB8DF5AE6731FF7478FC4225678F085EEDF7
+                DCCF5D9541FCA153DF782D6D01710DFF381862D95387B0DF7D67EC2590F402F6
+                7BBFC5354FB8E9F09EFAC66B69535DCD535BC24CFBDD5BA4DDBB381677497A01
+                63C51486FF723BF56D9153DE78AD6D15AF071872FF2B982B4A45143B006B08FB
+                848A7486AE7D949777693F783D2684FE9D57BBB1AF79465C575AFC0225A7A0E7
+                A3AAB2ED4BB876F495CC29EFF977FB13879AA23CB0B99917F7FE0697FFEBB0BA
+                3B7E44720A7AF8B085351999763BCB4767C4E635D32A6A3F91FB369DE0D97D6B
+                09397F224492E0FE20830DFB9A2778F8BD20E1C8A94DB916367720CA8247BA48
+                BFF7D658E626E965CC772F62EC6F3C9A4E858FB644B8F6A95652EEBE4D5C910C
+                5A7B9F8A5C0A1FFC1FDEA9D66E96532744F2A337DA285ABB4A66363DE70C6294
+                0AB52FE532FE79D25CE68ED0EE0D7EF4A08767F6FD0157F041614CD4961C490F
+                F862A158C9676CF6955C5BACDD9ACAA7774479E89D0DD476DC4DC7CAAE78A9A4
+                079C81506C7359507E31A38BB5575B293C0E7F3F10E15F5EDE4BA7EF5B22BB69
+                8F1F91F4902F104A8585A2B47FE73A21122D0EB3D85617E1A75BAA4496F65521
+                1275BC8CE42CF97CA1580C2B5850329989C3B5674DDABDF0FBFDDDEC6F5B43F0
+                CE331AB12F393D9F2394DF1A51746BF8DE4C738FC7B3F6075497F3F88E3FD2D4
+                F842BC44720E9C5E0196E6EB5831268D9119F1020DB1BF31CACA0D5B08F15B58
+                7BDA11FA9233E73442A948C761BE9A1BA769AF67973A25F86DEB029CF03C44E0
+                F6FDF152C939726AA1382CD3B87CCC24260CD55EBDC91F3705A86CF82FBA33A4
+                CBE9454E21940A03C1D00C960E29C6A8B118F6501B3CF97E3B3A6E816F0F9081
+                58FD83CF0AC59A92CB82E14B189EA3ADD610755ED5970EBAD8DD72071D5E8D8C
+                F7D50E9F158A121AC5989CA98C2E384DFCD24F392002D897F66F461F59473F5A
+                396BA0F0593114A42E67F650B3E62AD85E7ABF937DADCFD3B5BB2E5E22E9453E
+                2594157AD28CFFC4FC61DA0A4ED4CAB5B59B6B71E99E19B86380FB964F0AC534
+                E10A26E75BC8B3C50B34803A0F5AC59B41F4BA47E1D68E78A9A497F9A450CCFA
+                6FB0AC545B83AFDF1799CECB476AE80E3C1E2F9124808F09A52293486422178F
+                D656DDC9D37BFD74F87E2E3B4727968F84A237CEE6EA71299A0A628F096D6C3F
+                DE4E30FC62BC4492203E128A55BF90A56333E37BDA60C3F190703D8FE30AC87A
+                930413174A855DC427254C766827DB51E74F3BDCECE2B84B9D2F4D4E459160E2
+                42D10F656A7E01A91A1ABDD0D419E1B5AA6D04437BC59EEC039B604E0A25C332
+                9C6979A564A469279055E393F71AABF08FAA8D97481288104A54873F3894B2DC
+                2C4D4DCEF797FA6E8CFA2D67B3EC99A4E708A1AC32926E1D82DDA6D3CC549F6A
+                25DB73DB3B70FA2BE3259204A3BA1E0BC569E59468683D94C3ED70C2D722FE92
+                6E274928D8EC42288EF164676BC7EFBCB137227EF9EBB295387928847D66CCC6
+                E19A5A3FE795462FCEE0CBF13D49125084BFB7A3046C9A59AE4D5D9CA0AA51B8
+                49FBCE7889240928582C2514A6053513C8D67482C15A0DFFD1C74B990C2ED4E5
+                C84AC9CED44E207BA83E8227F08FF89E24492858F52329D16BA74AB6D61FC015
+                D81EDF93240991F5984AC8CC8A57E56B8046970E5FA82ABE2749120A4AB420B6
+                00A11608896CB8A55D4FD023079C271985A892A79989FBD48C473138B1A5CA31
+                3B4946C11F7568A6D5D82BF4118876A19864FB4E921116256AD64C63A03724DC
+                4FB41D7D580A25C928E8A306CD0C1D55571DF7869DC20549A124194598727D6C
+                7D7F2D1016C16C34E247D1C9369E24A3A08B0AABA291FA36757DE190104A974F
+                F6684B322246116FA7FA00B4823A6BB624E9289874E158FD841650DBA38C6A2D
+                B2453B4D0E0304059F2E100B12B5805EC45246838554E12E254945C1AE21A1A8
+                930E1A757691D24BA124193590EDC4A9916131562398940C2C22A597241591F5
+                D04C97568422F461D039881834345C6060A0108C34887433BEDBCF512D4A2894
+                8A3B28FE902413054FA09E8E766DA43D6661481C0E1D8A3E3B5E2249120ADE68
+                35474381F87EFF27471F26455716DF932409057FA09A960EED54620D2B306236
+                8D8BEF499284822F7494862E636CF49D16382FCB80C3B430BE2749120A8ACE45
+                C4ECC6A511EF333213C28C8F4D9C2C491A0A7A8B1FB7B786368D8C7E48338B80
+                D6A656B88D3E592049060AEE889746E71E5A5AB5513DABB6F25C3644ED6CB5F8
+                648124198837D3E3A7AEBB8A3A0DB5CA5E719E08680D4BC55FB271304908A1AC
+                0AD2E96FC4E9896A26A01D9F0B365331DC951F2F91241821145D14B3AE81C3CD
+                6D9A691C542BDEAE2ECBC2CA9C788924C19C6C85EDF0D4B0E578151DDDDA713F
+                CB4B1D1895F922FB39790D928412BFC9FA06763437C556CFD20A25590AC332CB
+                B01A0BE22592041217CA6A17C1C051B67769A7777B41A68E4B474E43D18D8D97
+                4812C84766DB1D5EC75FF6B4C5F7FA3F2946989C9F418A694A6C45554942F948
+                2861D326FE5CE5890DB2D20AE50E0353F2AEC3DE9A1E2F9124888F0582B77688
+                BD1DBC76403B01ADBA38E6C8BCB1E895F3E3259204F131A108FCA1C778B25A3B
+                D385AB03D7560C33906ABC0D9E95BDDE12C8278512D8F30A879BBD34B9E2051A
+                E0FC3285F30A46A13F7869BC4492003EF516EE8F62BB680885D9539998F34911
+                F557D4E971C7E59878664F11DE49CFC2BB724A8C04F059319C70BFC89E437E7C
+                1A0A6A27E5C3F271E5583265FB4F82F8AC5FD7CF0F62B5CD61527611F90EEDDC
+                F421062B6FD547699BF736AC73C74B25BDC4672D8A97662A8FBE4275B3B61637
+                1957A267E9F02BB1325BEC49ABD2CB9C2253A88C605B62C662399F25A519B161
+                9C5A40CD8052A33AB6B5E5D138E77FE02D8D8C41D106A74E29FD53DB69F0CEE2
+                C2A2D10C49D7CEDB999FA1D0EC2E62574310DF9B7F8F974A7A81D3D43D6CF013
+                3EDF802BB498ABC66867795BD5FA8DCD5578E1E0583AA66D2052591F3F223947
+                4EEF577CA39EE6C5831D1CD24EF34F8C9C147871450E26F3FD704F46BC54728E
+                9CC6A2A83C2742D985CD847C4B595C6ED0CCAC4C2AD9422C264306BB8E0571CF
+                D922E22E0DE5FAFD93CF118A20F2A543F8DD973023730843333512D5C6C9371B
+                39EA2A1216F100E1F587E3A592B3E4F385C2AB61828B3A70D8AE62569121363F
+                8956C848D1916EC8646FCB241AA73E25AC8ACC82CE812F108A40B7A0930EFF18
+                E66695C6B20AADA056ED8FC8D289CF0C2A8FCEC7BFECC998F02567C5170B2538
+                DF439737057BDAF95C345C43CB84C59994AFA7B93D8FEA261B9E8B44BCF2A65C
+                4CFB2CF862A150192578D1316A5B26333DAF9C120DADEDA3A25A960BCA0C34BB
+                4AD9D5D84D68E21ED82483DB1E7206425159E72130B791CD47BFCC37A71B3433
+                81F107A8F52BE372ED1CEF9AC241D76111DCEE8F1F919C2167281441E8EF47F1
+                2E1C85393A96D925FAD89BAA25D415442616D879AFF1721AA7AF2332BF31662D
+                2567C4990B45C53F6F3D9DA12B189791437186C69422C81421D6D8740387DAAF
+                E6B8FB20E1F935422C32C03D037A261435C5F4CE6E47312D6272969554ABF6C4
+                5228047E5EA68526D72C6A9DC708951E826D726EFD2FA0874211F8E63570ACBB
+                9869599329CFD79E5054D47E366569E9D4B9E6511DAA26BAFE40FC88E434F45C
+                28AA5571CEAEE7DDE6995C5D9A8F23457B62517FB1DA2A3EA728958D4D5FA275
+                5A23E1A507E175990D9D86B3108A4A6513E1F3831CEA5ACCC5234CB1693DB548
+                BA08702F2F35D0D0BD88B64E33A1D987085576C78F4A3EC6590A4510B8661FC7
+                1B6C22559EC5AC22457329F307A82BC82F1A66C6109944ADAB0CE79CED227DEE
+                881F95C4397BA1F0D708FE695BA9738F66446629A3B245CA1C3FA435548B38AD
+                D04C565A391B8F2CC373FE5E11B7888C48F201E72014950D7E2273AAA871CE15
+                5950AEA63A637F1AD522AA4354AE189DC1DB0D57A05F20EECDC2030464974A95
+                73148AC09FDD42ABBD9BCEC07CE695D8B0697CBC78560A5C5662C1A3CCA1CD55
+                8A7B4E1BC11BEA4FF6CF19BC9CBB50D44163C17955BCDFE61641E1852C1AAEC7
+                A2F1993DD54C6E6EA191D12963690DCDA2E148A1B84691150DDE40B71784A252
+                19227CDD0E6AEBA274F9E7B07098F6DA833E8DBAC4EFC85C1D17146631D43483
+                1D6D171039BF9EE05BD5B03A7ED2E0A19784A2A206B7976EA5BEA580346534E7
+                0D31695E2C6A7B96DDAA63FA303D73F30BA869BF06DDDB1370CEAB2632DF295E
+                9041337CB51785A2F2461065FE5EF1F615E3B08E64529E51738D87A742BD84A2
+                0C1DCB27E8C9768C42AF2CC717CAC1334758D2F10DB065C0B717F5B25004FEF5
+                9D442ED8C1B663E3D1FB8A99AEC196E6D3A176055533A39939298C1A3A9D14FD
+                7CF6BBE6615EEC1131CCB1816C617A5F282AFE373AD02DFC0B5B5B1663166FDE
+                B4E28123161535D81D9BA970496926970D1BCD71F765D43BAF88751B1D107D5D
+                D4B5B0F55761BB6839814B76C09B81C43E3DDBFDB9E4997FCF8FE75FC897C7A7
+                601EA0EB1CA8EB46EF3901BFDEE463774B072DDE476875BE4A98A378EA5AE191
+                7E6E697E6B24A5251B83A1088779311EFFB7E9F4DB4831DE83D3FF4B11BC2758
+                282AA96BCAC94A59C5F7677D89EBA75835DB2E74A6D474C2FA9A10DBEABB39D0
+                BE91CD0D9B500C077079778BA3B5E2A6F7938647757E5EF308ECBA091019C38C
+                C2399465CFC5E5B4F25EEB091A9D77E3F2FDE707BF3739FEC0F253A154CBAD2C
+                1FF72DEE5A6422C3123F304051ABE65C7EA83B216C8A488EDE6969E3F5AA6A0E
+                36B7883867AB785BD78B3384705627B95EA6C22EFE99429A752EFEE02C26E6E5
+                7069D908C60EC9628459A1A50BEEDB7190BD276EA5CDF357F1FB3EECA793C4C0
+                A1C2408AE116968E5FC5C3171B63A3F9060B6171BF55F774DC057F3B14E2853D
+                4E3634EB48E1089EE0ABF8C3EF0A3FBD156E11FEAB37271BB9350F0C33B05AE6
+                63D12DC2EB2F63FEC828CB46D9C566205FE8461D01AAF6297EB71EAE7A7A0F5D
+                FE1BF0DD217E8FEE13BF23894251A9B060325ECFB56357F2BD29794C29561796
+                8A1F1B64A8335A1D10E1CB8E23117677FBD8596F4067F2130D1F2710A9C615A8
+                C61B6E16E7B5E30D75100AABB360B93F7C807A8382319A222C94098B3E138B31
+                4B7CE662B70CC7622823121D2A3E8D8CC90E32C96161C230857139C2BA7F2A4E
+                6C6C8FF26A5D881B5F7E9760F8BB04EFDC133FF209FAE02909B1D84C5F6242FE
+                7F70D3CC895C39CA185BCF78B0A33E7E75A1F2160FB4AA5B67980E7788367D14
+                7750271EA2104758FFA1BD519F5CD810C620FEB09BA264457422163490E1D093
+                63835CB1A59A4E9E7B3AF63746F9DDBE4E9EDFF71CC73A570B57D3183FF219FA
+                E8758EEA48FD5939B9E60ABE3A6905DF9B292E7080C72DFD8D5DC2CBDDF4B73A
+                DE6FBF0FAFE149BA6E1651F8E9E963BB2F822BABE94E66947C9BBFAE488B7522
+                9224163556FAFDF610DFFF8B1B1F170B2BB2257EE473494C85DB1953192074C3
+                3A3A6BABF87F9B879195964FB6B0A56929BABE96F080232A04B2E568947BDF69
+                E2979B5FC299B2146E3BE3591EFA58282ACF45F1BFB51FCFDCB7D9DD64A0DE5B
+                441A36866549A9F416EAC2A28F6D0CF0F0AEDDFCF9FDBB711A1E841F8A5CF8CC
+                E90742F980CA569499422CADBBD9DC3881266F3AD30A0CB1E67EC9D9A12EFD57
+                5915E1E6577C3C5DF50075EEDB71FBDF813B7ADC6BAF9FBEB56BADD87D3FA32C
+                EB1BFC7C410AF3CAB5DB79BB2F50DD8C4F6449F7BD19E4A19DBB09EBBE8773E5
+                BBEA919327F49C7E6CDED5CCE8BE999895EFF2D5714BB8B62C3D3697AC0C784F
+                8F6A41DE6F8A52591BE4D73B7750D3F91A6EE7C3708F5A91774E68200EA8C824
+                CDB28442C7322E2D5ECA9523ADCC2ED74B0BF329D45ADF17B70578ABB1864D8D
+                CF70DCF32CDCB92F7EF49CD150C058914D86753A05A92B19953795DBE7D8982A
+                9713A443841B7FDC14E0E96A2F759DF7D3EA799E40F8A8487B7B75F48006330B
+                755D9E7D4B49B5FC940B8715F38319694C2E526255D383A139408D324222FE68
+                EE8AF2C4EE100F6F3F418BFF053CBAD5B1C5B9128486EF6C853A94F5528CCAD5
+                5C5A368D25A5E54C4CD3515EA4D7FC909153A1C61FC7BA616B4B883D0D9D3CB6
+                73275DBE77E8F43E2EAC873A58EDAC03D5336100BC82F7DBB0F8266236CC6472
+                DE624A72E6333DD3C492312686A76BDFCAB802B0E57098F5B5110E39EBD9DAFC
+                274E383713096CC4BBFA58FCAC8433806CB57049F6AA4CC2D112D22D579067FF
+                1A2519F97C65B889A593144D59995004F636C3D37BFDBC7E30809F7FD0E07A14
+                5D683B9DA1166141BCE2AC845A904F33809DBABAC46DF36CD20CDFC4E3BB808B
+                CA0C7CB93493A94526D2CD9021DC94BA747F5FAE1EA23EEA8088373ABBA3B16E
+                07356D515EAA72F2A723DD74798FE10CFE8188E105B8ADCFE7991FC042F93822
+                9E312833B118CF271C19C584BC5C66149631326B08D9760339B6282529C6D83C
+                FAEA5C6F8948BD55517882D0E681BAD6081DD1301D2D7A8E043BD8DB74848D75
+                75B8824D44D880DBBF419C2DDCCA473DCCFA9A4122948F73A330279905D82CC3
+                08878A844B2AA0247D04858E71A41BCAD085B3C8CE0853608F0AAB63A428458F
+                437C45DDD28488542BA46658AA258A352F0805A86B45ABEE42B50E4E1153748B
+                CCB4CB0FC73BA274FA03540B4BD1EA3108AB1120ACABA3D5BF8FDACEF7691031
+                87557F1C77B096A0A70EEEEDB7D36D0C42A17C9AEB858B2A306347ED7D67160F
+                CD8CD1345488A054EC97926A2CC1AC1B824E97875F97853E6821A498708B076F
+                8A9EEC7165B2F8F1074318520258A2DDE2DC66423489FFAB1E7FA83AD663CD1D
+                AA45AFEF245509D01211318657286995D83ED9E5502291482412894422914824
+                12894422914824128944229148241289442291482412894422914824FD16F85F
+                9C0E43AF679950A40000000049454E44AE426082}
+              FileName = 'C:\Users\Kacemo\Desktop\path4136.png'
+            end>
+          Position.X = 624.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 105.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+  object ToolBar: TToolBar
+    Size.Width = 830.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Cancel_Button: TButton
+      ModalResult = 2
+      Position.X = 580.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Annuler'
+    end
+    object Print_Button: TButton
+      Position.X = 108.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Imprimer'
+      OnClick = Print_ButtonClick
+    end
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 288
+    Top = 32
+  end
+end
